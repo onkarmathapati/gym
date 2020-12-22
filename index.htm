@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onkar fitness</title>
+
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Acme', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        background-repeat: no-repeat;
+        background: size 2500px 3000px;
+        top: 20px;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left:23px;
+        top: 9px;
+        text-align: center;
+        font-size: 19px;
+        display: inline-block;
+    }
+
+    .left img {
+        filter: invert(100%);
+        width: 78px;
+        font-size: 20px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 43%;
+        margin: 29px auto;
+        /* border: 2px solid rgb(81, 214, 19); */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top:33px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: large;
+
+    }
+
+    .navbar li a {
+        font-size: 20px;
+        padding: 34px 23px;
+
+        color: whitesmoke;
+        text-decoration: none;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active:hover {
+
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Acme', sans-serif;
+        font-family: 'Acme', sans-serif;
+    }
+
+    .btn:hover {
+        background-color: red;
+    }
+
+    .container {
+
+        border: 2px solid white;
+        margin: 106px 58px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+
+    }
+
+    .form-group input {
+        text-align: centre;
+        display: block;
+        width=508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+
+    }
+
+    .container button {
+        display: block;
+        width: 63%;
+        margin: 23px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <div class="left">
+                <img src="img/gym.png" alt="">
+                <div>onkar fitness</div>
+
+            </div>
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Fitness calculator</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">call us now</button> <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Nanded now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
